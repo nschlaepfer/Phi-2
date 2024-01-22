@@ -5,7 +5,7 @@ Check out [this tutorial](https://tutorials.inferless.com/deploy-deci-7b-using-i
 ## TL;DR - Deploy Phi-2 using Inferless:
 - Deployment of Deploy Phi-2 model using [bitsandbytes](https://github.com/TimDettmers/bitsandbytes).
 
-- By using the bitsandbytes, you can expect an average latency of 9.25 sec, generating an average of 23.18 tokens/sec where each token took 43.12 ms and an average cold start time of 9.85sec using an A100 GPU(80GB).
+- By using the bitsandbytes, you can expect an average latency of 11.96 sec, generating an average of 21.34 tokens/sec where each token took 46.85 ms and an average cold start time of 7.82 sec using an A100 GPU(80GB).
 - Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and config.yaml.
 - Model class in app.py with initialize, infer, and finalize functions.
