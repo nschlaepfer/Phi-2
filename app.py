@@ -4,7 +4,7 @@ import time
 
 class InferlessPythonModel:
     def initialize(self):
-        model_id = "rbgo/inferless-phi-2-DPO"
+        model_id = "Inferless/inferless-phi-2-DPO"
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True)
         self.tokenizer = AutoTokenizer.from_pretrained(model_id)
