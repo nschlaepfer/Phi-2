@@ -3,7 +3,7 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "bitsandbytes==0.41.3"
-    - "transformers==4.36.2"
-    - "accelerate==0.25.0"
-    - "scipy==1.11.4"
+    - "bitsandbytes==0.42.0"
+    - "transformers==4.37.2"
+    - "accelerate==0.26.1"
+    - "scipy==1.12.0"
