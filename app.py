@@ -6,7 +6,7 @@ from pathlib import Path
 class InferlessPythonModel:
     def initialize(self):
         repo_id = "Inferless/inferless-phi-2-DPO"  # Specify the model repository ID
-        HF_TOKEN = os.getenv("HF_TOKEN")  # Access Hugging Face token from environment variable
+        # HF_TOKEN = os.getenv("HF_TOKEN")  # Access Hugging Face token from environment variable
         volume_nfs = "/var/nfs-mount/common_llm"  # Define nfs volume for fast cold-start
         model_dir = f"{volume_nfs}/{repo_id}"  # Construct model directory path
         model_dir_path = Path(model_dir)  # Convert path to Path object
@@ -18,8 +18,8 @@ class InferlessPythonModel:
         # Download the model snapshot from Hugging Face Hub
         snapshot_download(
             repo_id,
-            local_dir=model_dir,
-            token=HF_TOKEN  # Provide token if necessary
+            local_dir=model_dir
+            # token=HF_TOKEN  # Provide token if necessary
         )
 
         # Define sampling parameters for model generation
