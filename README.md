@@ -4,7 +4,7 @@ Check out [this tutorial](https://guides.inferless.com/how-to-finetune-quantize-
 
 ## TL;DR - Deploy Phi-2 using Inferless:
 - Deployment of Deploy Phi-2 model using [vLLM](https://github.com/vllm-project/vllm).
-- By using the bitsandbytes, you can expect an average latency of 1.34 sec using an A100 GPU(80GB).
+- By using the vLLM, you can expect an average latency of 1.34 sec using an A100 GPU(80GB).
 - Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and config.yaml.
 - Model class in app.py with initialize, infer, and finalize functions.
