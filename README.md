@@ -1,6 +1,6 @@
 # Tutorial - Deploy Phi-2 using Inferless
 
-Check out [this tutorial](https://tutorials.inferless.com/deploy-deci-7b-using-inferless) which will guide you through the process of deploying a Phi-2 model using Inferless.
+Check out [this tutorial](https://guides.inferless.com/how-to-finetune-quantize-and-inference-phi-2) which will guide you through the process of deploying a Phi-2 model using Inferless.
 
 ## TL;DR - Deploy Phi-2 using Inferless:
 - Deployment of Deploy Phi-2 model using [vLLM](https://github.com/vllm-project/vllm).
